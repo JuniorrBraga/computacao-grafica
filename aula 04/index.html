@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Meu canvas</h2>
+    <canvas id="meucanvas" width="600" height="400"></canvas>
+
+    <div>
+        <button id="btnClick">Contador de Cliques</button>
+        <button id="btnColor">Seletor de Cor</button>
+        <button id="btnDraw">Desenho Livre</button>
+        <button id="btnClear">Limpar Tudo</button>
+    </div>
+
+    <div id="controle-cor" style="display:none;">
+        <label>R: <input type="range" id="r" min="0" max="255" value="50"></label><br>
+        <label>G: <input type="range" id="g" min="0" max="255" value="100"></label><br>
+        <label>B: <input type="range" id="b" min="0" max="255" value="200"></label>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
